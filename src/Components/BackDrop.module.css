@@ -1,0 +1,11 @@
+.backdrop {
+    position: absolute;
+    top: 95px;
+    text-align:center;
+    height:200px;
+    width:100%;
+    background-color:rgb(104, 154, 154);
+    color: black;
+    
+    
+}

@@ -1,0 +1,89 @@
+.navbar {
+  height: 10px;
+  background-color:teal;
+  text-align: center;
+  justify-content: center;
+  color:white;
+
+  font-weight: bold;
+  
+}
+.wrapper {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(198, 193, 193);
+  color:black
+}
+.left {
+  flex: 2;
+  text-align: right;
+  font-weight:bold
+}
+.center {
+    flex: 2;
+  text-align: center;
+  font-weight:bold
+}
+  
+
+.right {
+  flex: 2;
+  font-weight:bold;
+  text-align: left;
+}
+.button{
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background:darkgray;
+    color: black;
+    padding: 0.75rem 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.button:hover,
+  .button:active {
+    background-color:gray;
+   
+  }
+.icon {
+    width: 1.35rem;
+    height: 1.35rem;
+    margin-right: 0.5rem;
+  }
+
+  
+  
+  .bump {
+    animation: bump 300ms ease-out;
+  }
+  
+  @keyframes bump {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(0.9);
+    }
+    30% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .bgtext{
+    height: 30px;
+    background-color: rgb(104, 154, 154);
+    font-weight: bold;
+    font-size: 20px;
+  }
+
